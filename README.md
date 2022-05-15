@@ -5,22 +5,20 @@ Ubiquant Market Prediction 自身の解法まとめ
 
 # Env
 ```
-1. EC2インスタンス
-AMI：
-Deep Learning AMI Habana TensorFlow 2.8.0 SynapseAI 1.4.0 (Ubuntu 20.04) 20220425
-ami-08a08dff1716ed6bb (64 ビット (x86))
-instance type：
-g4dn.2xlarge
+1. EC2インスタンスを起動
+　【AMI】
+　Deep Learning AMI Habana TensorFlow 2.8.0 SynapseAI 1.4.0 (Ubuntu 20.04) 20220425 ami-08a08dff1716ed6bb (64 ビット (x86))
+　【instance type】
+　g4dn.2xlarge
 
+2. jupyter nottebookを起動
 
-2. pip install -r requirements.txt --user
+3. pip install -r requirements.txt --user
 ```
 
 
 # Structures
 ```
-
-.
 ├── data 
 │   └── input # インプット・中間マートの保存先
 │   └── model_wight　# 学習済みモデル重みの保存先
